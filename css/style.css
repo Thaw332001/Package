@@ -1,0 +1,123 @@
+
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #7c203a;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: grey;
+}
+
+/* for dropdown only - change the color of droodown */
+.navbar-custom .dropdown-menu {
+    background-color: #f7e8e8;
+}
+
+.navbar-custom .dropdown-item {
+    color: #7c203a;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #ea7dc7;
+    background-color: #f7efd2;
+}
+
+.dropdown-divider{
+	color: black;
+}
+.banner {
+	margin-top: 50px;
+	background-image: url(../images/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+	background-position: center center;
+}
+.banner .caption {
+	background-color: rgba(250,250,250,0.9);
+	padding: 30px;
+	max-width: 450px;
+}
+.banner .caption h2 {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #1e1e1e;
+}
+.banner .caption .line-dec {
+	width: 30px;
+	height: 5px;
+	background-color: #3a8bcd;
+}
+.banner .caption p {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.navbar .navbar-brand {
+	text-align: center;
+	width: 100%;
+	position: relative;
+	padding: 25px 0px;
+}
+.bg-dark {
+	background-color: #fff!important;
+	border-bottom: 1px solid #eee;
+}
+#navbarResponsive {
+	z-index: 999;
+	position: absolute;
+	left: 50%;
+	top: 105px;
+	transform: translateX(-50%);
+}
+.navbar-dark .navbar-nav .nav-item {
+	margin: 0px 15px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+	color: #1e1e1e;
+	transition: all 0.5s;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+	color: #3a8bcd;
+}
+.navbar:after {
+	width: 100%;
+	height: 1px;
+	background-color: #eee;
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -52px;
+}
+.navbar-dark .navbar-toggler-icon {
+	background-image: none;
+}
+.navbar-dark .navbar-toggler {
+	border-color: #3a8bcd;
+	background-color: #3a8bcd;	
+	height: 50px;
+	outline: none;
+}
+.navbar-dark .navbar-toggler-icon:after {
+	content: '\f0c9';
+	color: #FFF;
+	font-size: 22px;
+	line-height: 30px;
+	font-family: 'FontAwesome';
+}
